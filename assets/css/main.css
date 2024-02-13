@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: Nunito;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+
+#__nuxt {
+    min-height: 100vh;
+}
+
+.main-container {
+    min-height: 100vh;
+}
+
+.text-primary {
+    @apply text-slate-700;
+}
+
+.text-secondary {
+    @apply text-slate-500;
+}
